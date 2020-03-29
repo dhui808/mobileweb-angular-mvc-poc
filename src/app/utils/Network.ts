@@ -1,8 +1,10 @@
+import { environment } from '../../environments/environment';
+
 class Network {
 	
 	post(path, body, onSuccess, onFailure, onNetworkFailure) {
-		//let url = 'http://localhost:8080';
-        var url = location.protocol + '//' + location.host;
+        var url = (environment.baseUrl == '')? (location.protocol + '//' + location.host) : environment.baseUrl
+
 		url = url+path;
 		
 		fetch(url, {

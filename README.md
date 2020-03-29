@@ -46,4 +46,4 @@ Run `ng serve` for a dev server.
 
 ## Technology Version
 Angular 9.0.7\
-Typescript 3.7.5\
+Typescript 3.7.5

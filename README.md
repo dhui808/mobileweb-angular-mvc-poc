@@ -1,27 +1,49 @@
-# MobilewebAngularPoc
+# # Mobile Web Banking PoC with Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+This project illustrates the impelmentation of Component pattern, MVC pattern and Template Method pattern in an Angular-based web
+application.
 
-## Development server
+MVC (Model View Controler) pattern is the first Graphical User Interface design pattern. There are many variations of MVC pattern,
+for example, MVP (Model View Presenter) pattern and MVVM (Model View View-Model) pattern.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Model can refer to different things by different programmers. In web applications, we have request data model, response data model and
+view-model. The view model, which refers to the data that the View displays, is undoubtedly the most important one. In this document,
+the model is used interchangeably with view-model .
 
-## Code scaffolding
+A common misconception about MVC (and its variations) is that it divides the whole application into three parts: Model, View and 
+Controller. This is true only for small applications. For middle to large applications, we need to split the application into many 
+small parts, a.k.a, components, and each component serves as a facade that wraps the Model-View-Controller triad. Components 
+communicate with each other directly or via a mutual parent component, as illustrated below.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![Component](images/component1.png)
+![Component](images/component2.png)
+
+Just like in the traditioal OO programming languages (Objective-C, C++, Java, C#, Swict, etc.), there are scenarios where certian JavaScript
+classes have some common functionalities with a little variation. The Template Method pattern is the powerful tool that handles these scenarios
+elegantly, resulting in cleaner code and avoiding duplicate code. The Template Method design pattern is used intensively in this project.
+
+![TemplateMethod](images/templateMethod1.png)
+![TemplateMethod](images/templateMethod2.png)
+![TemplateMethod](images/templateMethod3.png)
+
+## Coparison with Redux Pattern
+The design patterns used in this application reflects my vision of how a web application should be structured.
+Please compare this project with my other project [mobileweb-angular-redux-poc](https://github.com/dhui808/mobileweb-angular-redux-poc), 
+which follows the Redux pattern. The Redux pattern results in too much boilerplate code is essentially an anti-pattern.
+
+## Architecture
+![Architecture](images/mvcflow1.png)
+![Architecture](images/mvcflow2.png)
 
 ## Build
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Start backend mockup server
+see [webservice-mock-server](https://github.com/dhui808/webservice-mock-server)
 
-## Running unit tests
+## Start Development UI server
+Run `ng serve` for a dev server.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Technology Version
+Angular 9.0.7\
+Typescript 3.7.5\

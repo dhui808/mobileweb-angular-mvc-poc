@@ -1,4 +1,4 @@
-# # Mobile Web Banking PoC with Angular
+## Mobile Web Banking PoC with Angular
 
 This project illustrates the impelmentation of Component pattern, MVC pattern and Template Method pattern in an Angular-based web
 application.

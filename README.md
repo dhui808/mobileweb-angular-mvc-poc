@@ -1,7 +1,11 @@
-## Mobile Web Banking PoC with Angular
+# Mobile Web Banking PoC with Angular
 
 This project illustrates the impelmentation of Component pattern, MVC pattern and Template Method pattern in an Angular-based web
 application.
+
+## Architecture
+![Architecture](images/mvcflow1.png)
+![Architecture](images/mvcflow2.png)
 
 MVC (Model View Controler) pattern is the first Graphical User Interface design pattern. There are many variations of MVC pattern,
 for example, MVP (Model View Presenter) pattern and MVVM (Model View View-Model) pattern.
@@ -30,10 +34,6 @@ elegantly, resulting in cleaner code and avoiding duplicate code. The Template M
 The design patterns used in this application reflects my vision of how a web application should be structured.
 Please compare this project with my other project [mobileweb-angular-redux-poc](https://github.com/dhui808/mobileweb-angular-redux-poc), 
 which follows the Redux pattern. The Redux pattern results in too much boilerplate code is essentially an anti-pattern.
-
-## Architecture
-![Architecture](images/mvcflow1.png)
-![Architecture](images/mvcflow2.png)
 
 ## Build
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.

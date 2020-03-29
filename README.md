@@ -26,7 +26,7 @@ elegantly, resulting in cleaner code and avoiding duplicate code. The Template M
 ![TemplateMethod](images/templateMethod2.png)
 ![TemplateMethod](images/templateMethod3.png)
 
-## Coparison with Redux Pattern
+## Comparison with Redux Pattern
 The design patterns used in this application reflects my vision of how a web application should be structured.
 Please compare this project with my other project [mobileweb-angular-redux-poc](https://github.com/dhui808/mobileweb-angular-redux-poc), 
 which follows the Redux pattern. The Redux pattern results in too much boilerplate code is essentially an anti-pattern.

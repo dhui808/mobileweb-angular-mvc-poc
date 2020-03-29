@@ -27,8 +27,8 @@
     "@angular/platform-browser-dynamic": "6.0.2",
     "@angular/router": "6.0.2",
     "core-js": "^2.5.7",
-    "i18next": "^10.2.2",
-    "i18next-xhr-backend": "^1.5.1",
+    "i18next": "^19.3.4",
+    "i18next-xhr-backend": "^3.2.2",
     "rxjs": "^6.3.3",
     "zone.js": "^0.8.26"
   },

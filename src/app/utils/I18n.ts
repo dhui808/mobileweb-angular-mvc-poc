@@ -13,8 +13,8 @@ export default class I18n {
 				loadPath: 'assets/locales/{{lng}}/{{ns}}.json'
 		    },
 		    lng: lng,
-		    fallbackLng: 'en',
-		    detectLngFromHeaders: true
+		    fallbackLng: 'en'
+		    //detectLngFromHeaders: true
 		  })
 	}
 	

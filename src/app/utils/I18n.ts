@@ -14,7 +14,6 @@ export default class I18n {
 		    },
 		    lng: lng,
 		    fallbackLng: 'en'
-		    //detectLngFromHeaders: true
 		  })
 	}
 	

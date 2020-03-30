@@ -31,7 +31,7 @@ export default class NavBarViewModel extends ViewModelBase {
 		this.menuItems.push(new MenuItem(this,'/settings', t(this.fieldMap['Settings']), 'menu-settings'));
 		this.menuItems.push(new MenuItem(this,'/logout', t(this.fieldMap['Logout']), 'menu-logout'));
 		// for angular, have to reverse the menu order
-		//this.menuItems.reverse();
+		this.menuItems.reverse();
 	}
 	
 	toggleMenu = () => {

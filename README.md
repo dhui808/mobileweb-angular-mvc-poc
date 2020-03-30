@@ -26,9 +26,9 @@ Just like in the traditioal OO programming languages (Objective-C, C++, Java, C#
 classes have some common functionalities with a little variation. The Template Method pattern is the powerful tool that handles these scenarios
 elegantly, resulting in cleaner code and avoiding duplicate code. The Template Method design pattern is used intensively in this project.
 
-![TemplateMethod](images/templateMethod1.png)
-![TemplateMethod](images/templateMethod2.png)
-![TemplateMethod](images/templateMethod3.png)
+![TemplateMethod](images/templateMethod1.jpg)
+![TemplateMethod](images/templateMethod2.jpg)
+![TemplateMethod](images/templateMethod3.jpg)
 
 ## Comparison with Redux Pattern
 The design patterns used in this application reflects my vision of how a web application should be structured.

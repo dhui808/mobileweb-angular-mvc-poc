@@ -11,8 +11,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/bankingweb",
-            "baseHref": "/bankingweb",
+            "outputPath": "dist/banking",
+            "baseHref": "/banking",
             "index": "src/home.html",
             "main": "src/main.ts",
             "tsConfig": "src/tsconfig.app.json",
